@@ -7,14 +7,14 @@ export default function HeroHeading({ itemVariants }) {
   return (
     <>
       <motion.div variants={itemVariants} className="mb-3 lg:mb-8">
-        <h1 className="font-display leading-[0.9] tracking-tight">
-          <span className="block text-steel-100 text-[2.5rem] xs:text-5xl sm:text-6xl lg:text-7xl xl:text-[5.5rem] drop-shadow-lg">
+        <h1 className="font-display leading-[0.85] tracking-tight">
+          <span className="block text-steel-100 text-5xl xs:text-6xl sm:text-7xl lg:text-8xl xl:text-9xl drop-shadow-lg">
             PRECISION
           </span>
-          <span className="block gradient-text text-[2.5rem] xs:text-5xl sm:text-6xl lg:text-7xl xl:text-[5.5rem]">
+          <span className="block gradient-text text-5xl xs:text-6xl sm:text-7xl lg:text-8xl xl:text-9xl">
             ENGINEERED
           </span>
-          <span className="block text-steel-100 text-[2.5rem] xs:text-5xl sm:text-6xl lg:text-7xl xl:text-[5.5rem] drop-shadow-lg">
+          <span className="block text-steel-100 text-5xl xs:text-6xl sm:text-7xl lg:text-8xl xl:text-9xl drop-shadow-lg">
             EXCELLENCE
           </span>
         </h1>
